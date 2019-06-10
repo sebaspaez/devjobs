@@ -1,0 +1,18 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "Sitio web para Reclutar y conseguir empleo como Programador",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index"
+  },
+  "author": "Sebastian Páez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
