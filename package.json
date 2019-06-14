@@ -4,7 +4,9 @@
   "description": "Sitio web para Reclutar y conseguir empleo como Programador",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index"
+    "dev": "nodemon ./index",
+    "start": "concurrently \"npm run dev\" \"npm run watch\"",
+    "watch": "webpack --w --mode development"
   },
   "author": "Sebastian Páez",
   "license": "ISC",

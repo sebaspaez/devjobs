@@ -27,7 +27,7 @@ const vacantesSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-    desripcion: {
+    descripcion: {
         type: String,
         trim: true
     },
